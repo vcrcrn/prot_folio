@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,900);
+@import url('http://fonts.cdnfonts.com/css/bell-bottom-laser');
+@import url("https://use.typekit.net/zgo1umh.css");
+
+body{
+  font-family: century-gothic-bold, sans-serif;
+  font-style: normal;
+}
+
+h3 {
+  color: #41a6d9;
+}
+
+hr {
+  border-color: black;
+  border-width: 5px;
+  border-style: dotted;
+  width: 75%;
+  display: inline-block;
+}
+
+p {
+  display: block;
+}
+
+p-1 {
+  display: block;
+  font-size: 1.5em;
+  font-family: Montserrat, sans-serif;
+}
+
+br2 {
+  display: block;
+  margin-bottom: 4em;
+  line-height: 2px;
+}
+
+p1 {
+  word-spacing: 100px;
+}
+
+p2 {
+  word-spacing: 80px;
+}
+
+table {
+  margin: 8% auto;
+  vertical-align: middle;
+}
+
+body {
+  background-color: #faeee3;
+  text-align: center;
+  font-family: Merriweather Sans, sans-serif;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #348ceb;
+  animation: mymove 5s infinite;
+  animation-direction: alternate;
+}
+
+.top-container {
+  background-image: url("images/paper.jpg");
+  background-color: #348ceb;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  animation: mymove 5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mymove {
+  from {
+    background-color: #348ceb;
+  }
+
+  to {
+    background-color: #41a6d9;
+  }
+}
+
+.middle-container {
+  margin-top: 30px;
+}
+
+.bottom-container {
+  text-align: center;
+}
+
+.cloud-top {
+  width: 20%;
+  position: relative;
+  animation-duration: 30s;
+  left: 15%;
+  animation-name: slide-left;
+}
+
+@keyframes slide-left {
+  from {
+    margin-right: 50%;
+  }
+
+  to {
+    left: 15%;
+  }
+}
+
+
+.cloud-bottom {
+  width: 35%;
+  left: 15%;
+  position: absolute;
+  animation-duration: 30s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 40%;
+  }
+
+  to {
+    left: 15%;
+  }
+}
+
+.mountain {
+  width: 100%;
+  position: relative;
+}
+
+.me {
+  border-radius: 100%;
+  margin: 15px;
+  width: 300px;
+}
+
+.icon {
+  width: 150px;
+  margin: 35px 25px 0;
+  padding: 0 10px 10px 10px;
+}
+
+.pro {
+  text-decoration: underline;
+  color: #eba134;
+}
+
+.profile {
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 10%;
+}
+
+.text-right {
+  text-align: right;
+  margin-right: 15px;
+  margin-left: 10%;
+}
+
+.bottom-margin {
+  margin-bottom: 5%;
+}
+
+#name {
+  font-family: sans-serif;
+}
+
+#name-1 {
+  width: auto;
+  margin: 0 auto;
+  color: #FAAF28;
+  font-size: 4.5em;
+  text-shadow: -2px 6px #F85B32;
+  animation: color-change 30s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes color-change {
+  0% { color: #FAAF28; }
+  50% { color: #F0963B; }
+  100% { color: #F85B32; }
+}
