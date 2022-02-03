@@ -2,7 +2,7 @@
 @import url('http://fonts.cdnfonts.com/css/bell-bottom-laser');
 @import url("https://use.typekit.net/zgo1umh.css");
 
-body{
+body {
   font-family: century-gothic-bold, sans-serif;
   font-style: normal;
 }
@@ -29,22 +29,8 @@ p-1 {
   font-family: Montserrat, sans-serif;
 }
 
-br2 {
-  display: block;
-  margin-bottom: 4em;
-  line-height: 2px;
-}
-
-p1 {
-  word-spacing: 100px;
-}
-
-p2 {
-  word-spacing: 80px;
-}
-
 table {
-  margin: 8% auto;
+  margin: auto;
   vertical-align: middle;
 }
 
@@ -65,7 +51,6 @@ body {
 }
 
 .top-container {
-  background-image: url("images/paper.jpg");
   background-color: #348ceb;
   padding: 0;
   height: auto;
@@ -86,7 +71,8 @@ body {
 }
 
 .middle-container {
-  margin-top: 30px;
+  padding: 5%;
+  background-color: #fff5dF;
 }
 
 .bottom-container {
@@ -110,7 +96,6 @@ body {
     left: 15%;
   }
 }
-
 
 .cloud-bottom {
   width: 35%;
@@ -137,7 +122,7 @@ body {
 
 .me {
   border-radius: 100%;
-  margin: 15px;
+  margin-bottom: 3%;
   width: 300px;
 }
 
@@ -176,6 +161,26 @@ body {
   margin-bottom: 5%;
 }
 
+.content-cover {
+  text-align: left;
+  width: 80%;
+  height: auto;
+  float: center;
+  margin: 5% auto;
+  padding: 5%;
+  vertical-align: middle;
+  border-radius: 15px;
+  background: white;
+  border: 1px solid #000000;
+}
+
+.container {
+  background-color: #fff5dF;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  padding: 5%;
+}
+
 #name {
   font-family: sans-serif;
 }
@@ -183,15 +188,7 @@ body {
 #name-1 {
   width: auto;
   margin: 0 auto;
-  color: #FAAF28;
+  color: #eba134;
   font-size: 4.5em;
   text-shadow: -2px 6px #F85B32;
-  animation: color-change 30s infinite;
-  animation-direction: alternate;
-}
-
-@keyframes color-change {
-  0% { color: #FAAF28; }
-  50% { color: #F0963B; }
-  100% { color: #F85B32; }
 }
