@@ -176,8 +176,8 @@ body {
 
 .container {
   background-color: #fff5dF;
-  border: 1px solid #000000;
-  border-radius: 0px;
+  border: 0px solid #000000;
+  border-radius: 15px;
   padding: 5%;
 }
 
