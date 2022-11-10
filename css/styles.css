@@ -115,6 +115,13 @@ body {
   }
 }
 
+.name_logo {
+  width: 75%;
+  height: auto;
+  margin: 5%;
+  padding: auto;
+}
+
 .mountain {
   width: 100%;
   position: relative;
