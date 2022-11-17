@@ -13,6 +13,9 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
+observer.observe(document.querySelector('.hvrbox'));
+observer.observe(document.querySelector('.hvrbox-1'));
+observer.observe(document.querySelector('.hvrbox-2'));
 observer.observe(document.querySelector('.hvrbox-text-papers'));
 observer.observe(document.querySelector('.hvrbox-text-blog'));
 observer.observe(document.querySelector('.hvrbox-text-visualarts'));
