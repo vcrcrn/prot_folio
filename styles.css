@@ -369,6 +369,30 @@ body {
   height: auto;
 }
 
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: auto;
+  height: auto;
+}
+
+.hvrbox-1 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: auto;
+  height: auto;
+}
+
+.hvrbox-2 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: auto;
+  height: auto;
+}
+
 .hvrbox img {
   max-width: 100%;
   border: 0px solid #000000;
@@ -762,6 +786,16 @@ body {
 
   50% {
     border-color: antiquewhite
+  }
+}
+
+@keyframes blink-caret1 {
+  from, to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: #333333
   }
 }
 
