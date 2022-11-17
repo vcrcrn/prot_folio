@@ -761,6 +761,16 @@ body {
   animation: blink-caret .5s step-end infinite;
 }
 
+.typewriter h1 {
+  color: ##333333;
+  overflow: hidden;
+  border-right: .15em solid #333333;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0em;
+  animation: blink-caret1 .5s step-end infinite;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .typing-animation {
     animation: typing 2.5s steps(20, end);
