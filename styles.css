@@ -393,6 +393,14 @@ body {
   height: auto;
 }
 
+.hvrbox-3 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: auto;
+  height: auto;
+}
+
 .hvrbox img {
   max-width: 100%;
   border: 0px solid #000000;
