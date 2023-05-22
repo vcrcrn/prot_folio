@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 a {
   color: #fff5d6;
   /*text-transform: uppercase;*/
-  display: inline;
+  display: block;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -99,7 +99,7 @@ br2 {
 
 br3 {
   display: block;
-  margin: 5%;
+  margin: 25px;
 }
 
 br4 {
@@ -229,9 +229,16 @@ body {
   text-align: center;
 }
 
+/*.about-index {
+  max-width: 60%;
+  margin: 7% 20%;
+  padding: auto;
+  text-align: right;
+}*/
+
 .about {
   max-width: 100%;
-  margin: 10% 5%;
+  margin: 10% 0%;
   padding: 0;
   text-align: left;
 }
@@ -249,6 +256,13 @@ body {
   text-align: left;
 }
 
+.section-title {
+  max-width: 100%;
+  margin: 5% 0;
+  padding: 0;
+  text-align: left;
+}
+
 .margin-left{
   margin-left: 5%;
 }
@@ -257,9 +271,10 @@ body {
 	padding: 5%;
 }
 
+
 .top-bottom{
-	padding-bottom: 8%;
-	padding-top: 8%;
+	padding-bottom: 7%;
+	padding-top: 7%;
 }
 
 .column {
@@ -279,7 +294,7 @@ body {
 
 .container {
   max-width: 100%;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 .container-visualarts {
@@ -369,14 +384,6 @@ body {
   height: auto;
 }
 
-.hvrbox {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  max-width: auto;
-  height: auto;
-}
-
 .hvrbox-1 {
   position: relative;
   display: inline-block;
@@ -400,6 +407,7 @@ body {
   max-width: auto;
   height: auto;
 }
+
 
 .hvrbox img {
   max-width: 100%;
@@ -480,7 +488,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, .8);
-  background-image: url("images/Berkeley 1.jpg");
+  background-image: url("images/Berkeley.jpg");
   border: 2px solid #000000;
   background-size: 100%;
   color: auto;
@@ -541,7 +549,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(250, 250, 250, .8);
-  background-image: url("images/Glass 1.jpg");
+  background-image: url("images/Glass.jpg");
   border: 2px solid #000000;
   background-size: 100%;
   color: auto;
@@ -603,7 +611,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(250, 250, 250, .8);
-  background-image: url("images/Ella 2.jpeg");
+  background-image: url("images/VA.jpg");
   border: 2px solid #000000;
   background-size: 100%;
   color: auto;
@@ -758,7 +766,6 @@ body {
 }
 
 /*TYPEWRITER EFFECT*/
-/* DEMO-SPECIFIC STYLES */
 .typewriter h3 {
   color: #fff5d6;
   overflow: hidden;
@@ -770,9 +777,9 @@ body {
 }
 
 .typewriter h1 {
-  color: ##333333;
+  color: #fff5d6;
   overflow: hidden;
-  border-right: .15em solid #333333;
+  border-right: .15em solid #fff5d6;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0em;
@@ -796,7 +803,7 @@ body {
   }
 }
 
-/* The typewriter cursor effect */
+/* The typewriter cursor effects*/
 @keyframes blink-caret {
   from, to {
     border-color: transparent
@@ -813,7 +820,7 @@ body {
   }
 
   50% {
-    border-color: #333333
+    border-color: #fff5d6
   }
 }
 
@@ -861,7 +868,7 @@ body {
   display: flex;
   text-align: center;
   width: auto;
-  background-color: white;
+  background-color: transparent;
   margin: 0%;
   padding: 0;
 }
@@ -874,7 +881,7 @@ body {
 }
 
 .modal-preview {
-  width: auto;
+  width: 100%;
 }
 
 .dots {
