@@ -134,22 +134,9 @@ body {
 }
 
 .icon {
-  width: 150px;
+  width: 80%;
   margin: 35px 25px 0;
   padding: 0 10px 10px 10px;
-}
-
-.pro {
-  text-decoration: underline;
-  color: #eba134;
-}
-
-.profile {
-  text-align: center;
-}
-
-.skills {
-  text-align: center;
 }
 
 .text-left {
